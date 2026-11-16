@@ -9,10 +9,10 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:PAPER_VERSION")
-    compileOnly("com.github.retrooper:packetevents-spigot:PE_VERSION")
+    compileOnly("io.papermc.paper:paper-api:26.2.build.+")
+    compileOnly("com.github.retrooper:packetevents-spigot:2.+")
 }
 
 java {
-    toolchain.languageVersion.set(JavaLanguageVersion.of(JAVA_VERSION))
+    toolchain.languageVersion.set(JavaLanguageVersion.of(25))
 }
