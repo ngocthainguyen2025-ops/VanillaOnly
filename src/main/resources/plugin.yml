@@ -1,1 +1,5 @@
-
+name: VanillaOnly
+version: 1.0
+main: vn.vanillaonly.VanillaOnly
+api-version: '26.2'
+depend: [packetevents]
